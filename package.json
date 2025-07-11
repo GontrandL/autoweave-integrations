@@ -1,0 +1,48 @@
+{
+  "name": "autoweave-integrations",
+  "version": "1.0.0",
+  "description": "AutoWeave Integration Protocols - MCP, ANP, and kagent bridges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": [
+    "autoweave",
+    "mcp",
+    "model-context-protocol",
+    "anp",
+    "agent-network-protocol",
+    "kagent",
+    "kubernetes",
+    "orchestration"
+  ],
+  "author": "AutoWeave Team",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.21.0",
+    "express": "^4.21.1",
+    "node-fetch": "^2.6.7",
+    "swagger-parser": "^10.0.3",
+    "ajv": "^8.17.1",
+    "js-yaml": "^4.1.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.17.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autoweave/autoweave-integrations.git"
+  }
+}
