@@ -1,8 +1,8 @@
 {
-  "name": "autoweave-integrations",
+  "name": "@autoweave/integrations",
   "version": "1.0.0",
-  "description": "AutoWeave Integration Protocols - MCP, ANP, and kagent bridges",
-  "main": "index.js",
+  "description": "AutoWeave integrations module - MCP, kagent, ANP, and services",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "jest",
@@ -28,7 +28,7 @@
     "node-fetch": "^2.6.7",
     "swagger-parser": "^10.0.3",
     "ajv": "^8.17.1",
-    "js-yaml": "^4.1.0",
+    "yaml": "^2.3.4",
     "uuid": "^9.0.0",
     "winston": "^3.17.0",
     "chalk": "^4.1.2"
